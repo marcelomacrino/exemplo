@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site HTML5</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Este é um exemplo de página HTML5 usando elementos semânticos como
+               <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>,
+               <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;figure&gt;</code>
+               e <code>&lt;footer&gt;</code>.</p>
+        </section>
+
+        <section id="artigos">
+            <h2>Artigos</h2>
+
+            <article>
+                <h3>O que é HTML5?</h3>
+                <p>HTML5 é a quinta versão da linguagem de marcação HTML. Trouxe novas tags semânticas,
+                   suporte nativo a áudio e vídeo, canvas para gráficos e muito mais.</p>
+                <time datetime="2026-06-06">6 de junho de 2026</time>
+            </article>
+
+            <article>
+                <h3>Tags Semânticas</h3>
+                <p>As tags semânticas descrevem o significado do conteúdo para o navegador e
+                   para ferramentas de acessibilidade, melhorando o SEO e a legibilidade do código.</p>
+                <time datetime="2026-06-06">6 de junho de 2026</time>
+            </article>
+
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                </p>
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </p>
+                <p>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="40" placeholder="Digite sua mensagem..."></textarea>
+                </p>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Exemplo HTML5 &mdash; Disciplina Front-End DevOps &mdash; Unianchieta</p>
+    </footer>
+
+</body>
+</html>
